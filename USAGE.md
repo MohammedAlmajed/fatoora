@@ -6,11 +6,11 @@
 
 ```bash
 # Install from GitHub
-pip install git+https://github.com/yourusername/pyzatca.git
+pip install git+https://github.com/MohammedAlmajed/fatoora.git
 
 # Or install locally
-git clone https://github.com/yourusername/pyzatca.git
-cd pyzatca
+git clone https://github.com/MohammedAlmajed/fatoora.git
+cd fatoora
 pip install -e .
 ```
 
@@ -250,7 +250,7 @@ except CSRValidationException as e:
 pytest
 
 # Run with coverage
-pytest --cov=pyzatca
+pytest --cov=fatoora
 
 # Run specific test
 pytest tests/test_generate_qr_code.py -v

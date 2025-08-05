@@ -4,8 +4,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/pyzatca.git
-cd pyzatca
+git clone https://github.com/MohammedAlmajed/fatoora.git
+cd fatoora
 
 # Install basic dependencies (required)
 pip install cryptography

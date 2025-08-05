@@ -1,8 +1,8 @@
-# ZATCA (Fatoora) QR-Code Implementation for Python
+# Fatoora - ZATCA Python Library
 
 [![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![PyPI](https://img.shields.io/badge/pypi-pyzatca-blue.svg)](https://pypi.org/project/pyzatca/)
+[![PyPI](https://img.shields.io/badge/pypi-fatoora-blue.svg)](https://pypi.org/project/fatoora/)
 
 A Python port of the original [ZATCA PHP library](https://github.com/SallaApp/ZATCA) by Salla. This package helps developers implement ZATCA (Fatoora) QR code easily, which is required for Saudi Arabia's e-invoicing system.
 
@@ -26,8 +26,8 @@ A Python port of the original [ZATCA PHP library](https://github.com/SallaApp/ZA
 
 ### Step 1: Clone and Install
 ```bash
-git clone https://github.com/yourusername/pyzatca.git
-cd pyzatca
+git clone https://github.com/MohammedAlmajed/fatoora.git
+cd fatoora
 
 # Install basic dependencies (required)
 pip install cryptography
@@ -73,14 +73,14 @@ python my_first_qr.py
 You can install the package via pip:
 
 ```bash
-pip install pyzatca
+pip install fatoora
 ```
 
 Or install from source:
 
 ```bash
-git clone https://github.com/example/pyzatca.git
-cd pyzatca
+git clone https://github.com/MohammedAlmajed/fatoora.git
+cd fatoora
 pip install -e .
 ```
 
@@ -228,7 +228,7 @@ pip install -r requirements-dev.txt
 pytest
 
 # Run tests with coverage
-pytest --cov=pyzatca
+pytest --cov=fatoora
 ```
 
 ## Development
@@ -238,13 +238,13 @@ pytest --cov=pyzatca
 pip install -e .
 
 # Format code
-black pyzatca/
+black fatoora/
 
 # Lint code
-flake8 pyzatca/
+flake8 fatoora/
 
 # Type checking
-mypy pyzatca/
+mypy fatoora/
 ```
 
 ## ZATCA Integration Process

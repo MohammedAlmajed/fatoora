@@ -1,5 +1,5 @@
 """
-Setup script for pyzatca package.
+Setup script for fatoora package.
 """
 
 from setuptools import setup, find_packages
@@ -8,14 +8,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="pyzatca",
+    name="fatoora",
     version="1.0.0",
     author="Python ZATCA Community",
     author_email="support@example.com",
-    description="ZATCA (Fatoora) QR-Code Implementation for Python",
+    description="Fatoora - ZATCA E-Invoicing QR-Code Implementation for Python",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/example/pyzatca",
+    url="https://github.com/MohammedAlmajed/fatoora",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -45,11 +45,11 @@ setup(
             "mypy>=0.800",
         ],
     },
-    keywords="zatca, e-invoicing, qr-code, saudi-arabia, fatoora, arabic",
+    keywords="fatoora, zatca, e-invoicing, qr-code, saudi-arabia, arabic",
     project_urls={
-        "Bug Reports": "https://github.com/example/pyzatca/issues",
-        "Source": "https://github.com/example/pyzatca",
-        "Documentation": "https://github.com/example/pyzatca#readme",
+        "Bug Reports": "https://github.com/MohammedAlmajed/fatoora/issues",
+        "Source": "https://github.com/MohammedAlmajed/fatoora",
+        "Documentation": "https://github.com/MohammedAlmajed/fatoora#readme",
     },
     include_package_data=True,
     zip_safe=False,
